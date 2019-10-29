@@ -24,5 +24,17 @@
       "name": "test/main.test.ts",
       "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/test/main.test.ts"
     }
+  ],
+  {
+  "directories": [
+    "src",
+    "test",
+    "src/api",
+    "src/config",
+    "src/api/controllers",
+    "src/api/routes",
+    "src/interfaces",
+    "src/middlewares"
   ]
+}
 }
