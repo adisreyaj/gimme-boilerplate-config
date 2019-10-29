@@ -23,6 +23,26 @@
     {
       "name": "test/main.test.ts",
       "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/test/main.test.ts"
+    },
+    {
+      "name": "tsconfig.json",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/tsconfig.json"
+    },
+    {
+      "name": "tslint.json",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/tslint.json"
+    },
+    {
+      "name": "env.example",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/env.example"
+    },
+    {
+      "name": "jest.config.js",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/jest.config.js"
+    },
+    {
+      "name": "README.md",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/README.md"
     }
   ],
   "directories": [
@@ -34,5 +54,42 @@
     "src/api/routes",
     "src/interfaces",
     "src/middlewares"
-  ]
+  ],
+  "dependencies": ["body-parser", "dotenv", "express", "morgan", "winston"],
+  "devDependencies": [
+    "@types/chai",
+    "@types/dotenv",
+    "@types/express",
+    "@types/jest",
+    "@types/node",
+    "@types/supertest",
+    "@types/morgan",
+    "chai",
+    "concurrently",
+    "jest",
+    "supertest",
+    "ts-jest",
+    "tslint",
+    "tslint-config-airbnb",
+    "typescript"
+  ],
+  "package": {
+    "name": "<your_project_name>",
+    "version": "0.0.1",
+    "description": "<your_project_description>",
+    "main": "dist/src/server.js",
+    "scripts": {
+      "start": "node ./dist/src/server.js",
+      "start:watch": "nodemon ./dist/src/server.js",
+      "dev": "concurrently \"tsc -w\" \"npm run start:watch\"",
+      "test": "jest --detectOpenHandles --runInBand",
+      "test:coverage": "jest --forceExit --runInBand --coverage"
+    },
+    "keywords": ["NodeJs", "Typescript", "Node"],
+    "author": {
+      "name": "<your_name>",
+      "email": "<your_email>"
+    },
+    "license": "<your_preffered_license>"
+  }
 }
