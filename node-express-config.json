@@ -33,8 +33,8 @@
       "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/tslint.json"
     },
     {
-      "name": "env.example",
-      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/env.example"
+      "name": ".env.example",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/.env.example"
     },
     {
       "name": "jest.config.js",
