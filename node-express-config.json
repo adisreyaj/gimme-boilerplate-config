@@ -25,7 +25,6 @@
       "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/test/main.test.ts"
     }
   ],
-  {
   "directories": [
     "src",
     "test",
@@ -36,5 +35,4 @@
     "src/interfaces",
     "src/middlewares"
   ]
-}
 }
