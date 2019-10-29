@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "name": "src/app.ts",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/src/app.ts"
+    },
+    {
+      "name": "src/server.ts",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/src/server.ts"
+    },
+    {
+      "name": "src/api/controllers/main.controller.ts",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/src/api/controllers/main.controller.ts"
+    },
+    {
+      "name": "src/api/routes/main.route.ts",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/src/api/routes/main.route.ts"
+    },
+    {
+      "name": "src/config/logger.ts",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/src/config/logger.ts"
+    },
+    {
+      "name": "test/main.test.ts",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/test/main.test.ts"
+    }
+  ]
+}
