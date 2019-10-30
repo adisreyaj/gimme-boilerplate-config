@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "name": "tsconfig.json",
+      "link": "https://raw.githubusercontent.com/adisreyaj/npm-package-typescript-starter/master/tsconfig.json"
+    },
+    {
+      "name": "tslint.json",
+      "link": "https://raw.githubusercontent.com/adisreyaj/npm-package-typescript-starter/master/tslint.json"
+    },
+    {
+      "name": "jest.config.js",
+      "link": "https://raw.githubusercontent.com/adisreyaj/npm-package-typescript-starter/master/jest.config.js"
+    },
+    {
+      "name": "README.md",
+      "link": "https://raw.githubusercontent.com/adisreyaj/npm-package-typescript-starter/master/README.md"
+    },
+    {
+      "name": ".gitignore",
+      "link": "https://raw.githubusercontent.com/adisreyaj/npm-package-typescript-starter/master/.gitignore"
+    },
+    {
+      "name": ".npmignore",
+      "link": "https://raw.githubusercontent.com/adisreyaj/npm-package-typescript-starter/master/.npmignore"
+    },
+    {
+      "name": "minify.js",
+      "link": "https://raw.githubusercontent.com/adisreyaj/npm-package-typescript-starter/master/minify.js"
+    }
+  ],
+  "directories": [
+    "lib",
+    "lib/facades",
+    "lib/wrappers",
+    "lib/interfaces",
+    "test"
+  ],
+  "dependencies": [],
+  "devDependencies": ["@types/jest", "ts-jest", "typescript"],
+  "package": {
+    "name": "<your_project_name>",
+    "version": "0.0.1",
+    "description": "<your_project_description>",
+    "main": "dist/lib/index.js",
+    "types": "dist/lib/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "package": "tsc && node minify.js && npm pack",
+      "test": "jest --detectOpenHandles --runInBand",
+      "test:coverage": "jest --forceExit --runInBand --coverage"
+    },
+    "keywords": ["Library", "Typescript", "NPM Package"],
+    "author": {
+      "name": "<your_name>",
+      "email": "<your_email>"
+    },
+    "license": "<your_preffered_license>"
+  }
+}

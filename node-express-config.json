@@ -33,6 +33,10 @@
       "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/tslint.json"
     },
     {
+      "name": ".gitignore",
+      "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/.gitignore"
+    },
+    {
       "name": ".env.example",
       "link": "https://raw.githubusercontent.com/adisreyaj/node-typescript-starter/master/.env.example"
     },
